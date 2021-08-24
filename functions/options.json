@@ -5,10 +5,14 @@
       "modulePath": "box3/get-file-by-hash"
     }
   ],
-  "编程猫论坛": [
+  "编程猫社区": [
     {
-      "label": "论坛刷浏览量",
+      "label": "论坛帖子刷浏览量",
       "modulePath": "codemao/form-view"
+    },
+    {
+      "label": "Kitten作品刷浏览量",
+      "modulePath": "codemao/work-view"
     }
   ]
 }
