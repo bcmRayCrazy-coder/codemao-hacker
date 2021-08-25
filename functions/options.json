@@ -13,6 +13,10 @@
     {
       "label": "Kitten作品刷浏览量",
       "modulePath": "codemao/work-view"
+    },
+    {
+      "label": "从服务器上刷帖子浏览量",
+      "modulePath": "codemao/form-server-view"
     }
   ]
 }
