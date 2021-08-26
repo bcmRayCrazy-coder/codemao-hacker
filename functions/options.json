@@ -1,22 +1,23 @@
 {
-  "Box3(神奇代码岛)": [
-    {
-      "label": "通过hash获得文件",
-      "modulePath": "box3/get-file-by-hash"
-    }
-  ],
-  "编程猫社区": [
-    {
-      "label": "论坛帖子刷浏览量",
-      "modulePath": "codemao/form-view"
-    },
-    {
-      "label": "Kitten作品刷浏览量",
-      "modulePath": "codemao/work-view"
-    },
-    {
-      "label": "从服务器上刷帖子浏览量",
-      "modulePath": "codemao/form-server-view"
-    }
-  ]
+    "Box3(神奇代码岛)": [{
+        "label": "通过hash获得文件",
+        "modulePath": "box3/get-file-by-hash"
+    }],
+    "编程猫社区": [{
+            "label": "论坛帖子刷浏览量",
+            "modulePath": "codemao/form-view"
+        },
+        {
+            "label": "Kitten作品刷浏览量",
+            "modulePath": "codemao/work-view"
+        },
+        {
+            "label": "从服务器上刷帖子浏览量",
+            "modulePath": "codemao/form-server-view"
+        }
+    ],
+    "操作": [{
+        "label": "退出",
+        "modulePath": "settings/exit"
+    }]
 }
