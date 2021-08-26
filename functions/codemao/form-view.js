@@ -9,7 +9,7 @@ module.exports = {
         name: "postID",
         message: "输入贴号(示例: 394580)",
         type: "input",
-        validate: v => /^[0-9]+$/.test(v) ? true : "请输入正确的贴号"
+
       },
       {
         name: "times",
