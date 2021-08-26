@@ -14,6 +14,10 @@
         {
             "label": "从服务器上刷帖子浏览量",
             "modulePath": "codemao/form-server-view"
+        },
+        {
+            "label": "自动顶贴",
+            "modulePath": "codemao/form-auto-reply"
         }
     ],
     "操作": [{

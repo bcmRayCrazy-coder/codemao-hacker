@@ -1,7 +1,6 @@
 const axios = require("axios");
 const { prompt } = require("inquirer");
 const chalk = require("chalk");
-
 module.exports = {
     async main() {
         // let cookie = await (require("../../common/headerGetter").codemaoCommunity());
@@ -9,7 +8,7 @@ module.exports = {
                 name: "postID",
                 message: "输入贴号(示例: 394580)",
                 type: "input",
-                validate: v => /^[0-9]+$/.test(v) ? true : "请输入正确的贴号"
+
             },
             {
                 name: "times",
@@ -47,8 +46,8 @@ module.exports = {
                 } catch (e) {
 
                     if (e.response && e.response.status === 404) {
-                        console.error(chalk `{red 404错误: 帖子不存在}`);
-                        process.exit();
+                        console.error(chalk `{red 404错误: 帖子不存在}`)
+                        process.exit()
                     }
                     console.log(chalk `{red.bold 线程出错, 正在重启...}\n{red 错误: ${e}}`)
                 }
