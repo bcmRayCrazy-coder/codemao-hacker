@@ -1,0 +1,6 @@
+node_modules
+.idea
+output/*
+demo.js
+functions/codemao/form-hack.js
+functions/codemao/form-painter.js
