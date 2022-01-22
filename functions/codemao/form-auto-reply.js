@@ -45,8 +45,11 @@ module.exports = {
         ]);
         const Cookie = await (require("../../common/headerGetter").getCookie());
         const randomContents = [
-            "不错", "必须顶~", "yyds!", "膜拜大佬"
-        ]
+      "不错", "必须顶~", "yyds!", "膜拜大佬", "你是最棒的", "顶顶顶",
+      "很有用的贴", "针不戳诶", "编程猫有你更精彩~", "我觉得你的帖子迟早会火爆全网", "你最棒了~",
+      "您!", "太您了!", "qwq", "awa", "虽然我看不懂，但我大为震撼", "太nb了!",
+      "这么好的帖子怎么没人顶?"
+    ]
         let count = 0,
             replyID;
         while (true) {
